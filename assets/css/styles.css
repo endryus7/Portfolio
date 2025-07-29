@@ -31,6 +31,11 @@ body {
     color: #333;
 }
 
+button:hover {
+    transform: scale(1.05);
+    transition: ease-in-out 0.3s;
+}
+
 /* HEADER */
 
 .header {
@@ -243,6 +248,7 @@ b {
 
 .content3 {
     margin: 0 auto;
+    margin-top: 2.5rem;
     padding: 0 20px;
     display: flex;
     flex-direction: column;
@@ -285,7 +291,7 @@ b {
 .botao_sobre .email {
     background-color: #6366f1;
     color: white;
-    padding: 12px 24px;
+    padding: 14px 26px;
     border: none;
     border-radius: 5px;
     font-weight: 600;
@@ -353,6 +359,10 @@ b {
     align-items: center;
     padding: 2.5rem 1rem;
     background-color: white;
+}
+
+.content_projeto {
+    margin: 2rem;
 }
 
 .content_projeto h1{
@@ -425,6 +435,7 @@ b {
     cursor: pointer;
 }
 
+
 .ver_projeto:hover {
     background-color: #6366f1;
     color: white;
@@ -485,6 +496,11 @@ b {
 
 .menu_contato a:hover {
     color: #6366f1;
+}
+
+.menu_contato li:hover {
+    transform: scale(1.05);
+    transition: ease-in-out 0.3s;
 }
 
 .menu_contato li:hover {
