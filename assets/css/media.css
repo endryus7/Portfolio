@@ -1,11 +1,15 @@
 @media screen and (min-width: 768px) {
-    .mobile_menu {
-        display: none;
-    }
+  .mobile_menu {
+      display: none;
+  }
 
-    .header_nav .menu {
+  .header_nav .menu {
     display: flex;
-}
+  }
+
+  .menu_contato {
+    flex-direction: row;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -14,20 +18,71 @@
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 1rem;
+  }
+
+  .header_div {
+    flex: 1;
+  }
+
+  .header_nav {
+    flex: 2;
+    display: flex;
+    justify-content: start;
+  }
+
+  .menu {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .content1{
+    margin: 0rem 6rem;
+  }
+
+  
 }
 
-.header_div {
-  flex: 1;
+@media only screen and (min-width: 1200px) {
+  .content1 {
+    margin: auto;
+  }
+
+  .content3 {
+    flex-direction: row;
+    gap: 5rem;
+    max-width: 1200px;
+  }
+
+  .content_picture {
+    margin: auto;
+  }
+
+  .content_sobre h2 {
+    text-align: left;
+  }
+
+  .content4 {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .content_projeto_card {
+    flex-direction: row;
+    max-width: 1200px;
+  }
+
+  #content_projeto_card2 {
+    flex-direction: row-reverse;
+  }
+
+  .projeto_body {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .menu_contato {
+    flex-direction: row;
+  }
 }
 
-.header_nav {
-  flex: 2;
-  display: flex;
-  justify-content: start;
-}
-
-.menu {
-  display: flex;
-  gap: 2rem;
-}
-}
