@@ -343,12 +343,19 @@ b {
 
 .card p {
     padding-top: 5px;
+    padding-bottom: 5px;
     font-size: 1rem;
 }
 
-.content_formacao .card_p {
+.content4 .card_p {
     color: #6366f1;
 }
+
+.card a {
+    text-decoration: underline;
+    color: blue;
+}
+
 
 /* SECTION3 */
 
