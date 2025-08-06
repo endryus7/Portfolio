@@ -527,10 +527,8 @@ b {
 
 /* FOOTER */
 footer {
-    height: 100px;
+    height: 50px;
     background: var(--primary-bg-color);
-    padding: 2.7rem;
-    
 }
 
 .content_footer p {
@@ -538,6 +536,7 @@ footer {
     color: rgba(255, 255, 255, 0.692);
     font-size: 0.8rem;
     font-weight: 200;
+    padding: 1rem;
 }
 
 
