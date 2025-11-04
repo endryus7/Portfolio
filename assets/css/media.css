@@ -1,12 +1,24 @@
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 480px) {
   .content1 h1 {
-    max-width: 400px;
-    font-size: 60px;
+    font-size: 45px;
+    line-height: 50px;
   }
 
   .content1 p {
-    padding: 20px;
-    max-width: 400px;
+    font-size: 1rem;
+  }
+
+  .content2 {
+    padding-top: 2rem;
+    margin: 0;
+  }
+
+  .content2 h2 {
+    font-size: 23px;
+  }
+
+  .icons_img {
+    gap: 1rem;
   }
 }
 
