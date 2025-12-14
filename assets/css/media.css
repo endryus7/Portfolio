@@ -37,30 +37,18 @@
 }
 
 @media screen and (min-width: 992px) {
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem 1rem;
-  }
-
-  .header_div {
-    flex: 1;
-  }
-
-  .header_nav {
-    flex: 2;
-    display: flex;
-    justify-content: start;
-  }
-
-  .menu {
-    display: flex;
-    gap: 2rem;
-  }
-
   .content1{
     margin: 0rem 6rem;
+  }
+
+  .content_curso  h1 {
+    text-align: center;
+  }
+
+  #curso {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
   }
 }
 

@@ -60,23 +60,18 @@ button:hover {
     height: 3.25rem;
 }
 
+.header_nav {
+    margin-right: 5rem;
+}
+
 .header_nav .menu {
     display: none;
 }
 
-header .menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 600px;
-}
-
 header .menu li a {
-    padding: 30px 10px 20px 10px;
+    padding: 1rem;
     color: white;
     font-size: 18px;
-    text-transform: uppercase;
-    text-decoration: none;
 }
 
 header .menu li a:hover {
@@ -355,7 +350,6 @@ b {
     text-decoration: underline;
     color: blue;
 }
-
 
 /* SECTION3 */
 
