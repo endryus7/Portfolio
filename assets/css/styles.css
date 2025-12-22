@@ -269,6 +269,10 @@ b {
     text-align: center;
 }
 
+.content_sobre p {
+    word-spacing: -1px;
+}
+
 .location {
     margin-top: 1rem ;
 }
