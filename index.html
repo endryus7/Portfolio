@@ -11,10 +11,13 @@
     <link rel="stylesheet" href="./assets/css/media.css">
 </head>
 <body>
-    <header class="header">
-        <div class="header_div">
-            <img class="logo" src="./assets/images/logo.png" alt="logo"> 
+    <header>
+    <div class="header_container">
+
+        <div class="header_logo">
+            <img src="./assets/images/logo.png" alt="logo">
         </div>
+
         <nav class="header_nav">
             <ul class="menu">
                 <li><a href="#home">Home</a></li>
@@ -23,11 +26,7 @@
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
-        <div class="mobile_menu">
-                <div class="um"></div>
-                <div class="dois"> </div>
-                <div class="tres"> </div>
-        </div>
+    </div>
     </header>
     <main>
         <section class="section1" id="home">
@@ -90,7 +89,7 @@
                     </div>
                     <div class="botao_sobre">
                         <a href="mailto:endryusmontezano@live.com"><button class="email">Email</button></a>
-                        <a href="./assets/Currículo - Endryus Montezano .pdf" target="_blank"><button class="curriculo">Currículo</button></a>
+                        <a href="./assets/Currículo - Endryus Montezano.pdf" target="_blank"><button class="curriculo">Currículo</button></a>
                     </div>
                 </div>
             </div>
@@ -139,29 +138,85 @@
             <div class="content_projeto">
                 <h1>Projetos</h1>
             </div>
-            <div class="content_projeto_card">
-                <img src="assets/images/projeto-clínica-MedVita.png" alt="clínica-MedVita">
-                <div class="projeto_body">
-                    <h2>Clínica MedVita</h2>
-                    <p>Clínica Medvita é um site institucional desenvolvido para simular uma clínica médica. O foco foi aplicar boas práticas de HTML5, CSS3 e JavaScript, explorando responsividade com media queries, navegação dinâmica com menu hambúrguer e organização de layout com Flexbox e Grid.</p>
-                    <div class="ferramentas">
-                        <ul class="projeto_icons">
-                            <li>
-                                <img src="./assets/images/html-5.png" alt="icone do html-5">
-                            </li>
-                            <li>
-                                <img src="./assets/images/css-3.png" alt="icone do css-3">
-                            </li>
-                            <li>
-                                <img src="./assets/images/javascript.png" alt="icone do javascript">
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="projeto_button">
-                        <a href="https://endryus7.github.io/Clinica-MedVita/" target="_blank"><button class="ver_projeto">Ver projeto</button></a>
-                        <a href="https://github.com/endryus7/Clinica-MedVita" target="_blank"><button class="ver_repositorio">Ver Repositório</button></a>
+                <div class="content_projeto_card">
+                    <img src="./assets/images/projeto-party-time.png" alt="Site Party Time">
+                    <div class="projeto_body">
+                        <h2>Party Time</h2>
+                        <p>Aplicação web full stack desenvolvida com React, Node.js, Express e MongoDB, permitindo criar e gerenciar festas e selecionar serviços disponíveis. A aplicação utiliza API REST, consumo de dados com Axios e integração com banco de dados.</p>
+                        <div class="ferramentas">
+                            <ul class="projeto_icons">
+                                <li>
+                                    <img src="./assets/images/html-5.png" alt="icone do html-5">
+                                </li>
+                                <li>
+                                    <img src="./assets/images/css-3.png" alt="icone do css-3">
+                                </li>
+                                <li>
+                                    <img src="./assets/images/javascript.png" alt="icone do javascript">
+                                </li>
+                                <li>
+                                    <img src="./assets/images/icons8-react-50.png" alt="icone do react">
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="projeto_button">
+                            <a href="https://party-time-inky.vercel.app/" target="_blank"><button class="ver_projeto">Ver projeto</button></a>
+                            <a href="https://github.com/endryus7/Party-Time" target="_blank"><button class="ver_repositorio">Ver Repositório</button></a>
+                        </div>
                     </div>
                 </div>
+
+                <div class="content_projeto_card" id="content_projeto_card2">
+                    <img src="./assets/images/projeto-memories.png" alt="Site Memories">
+                    <div class="projeto_body">
+                        <h2>Memories</h2>
+                        <p>Aplicação web full stack desenvolvida com React, Node.js, Express e MongoDB que permite criar e compartilhar memórias com imagens e comentários. A aplicação utiliza API REST, consumo de dados com Axios e integração com banco de dados para armazenar e recuperar as memórias.</p>
+                        <div class="ferramentas">
+                            <ul class="projeto_icons">
+                                <li>
+                                    <img src="./assets/images/html-5.png" alt="icone do html-5">
+                                </li>
+                                <li>
+                                    <img src="./assets/images/css-3.png" alt="icone do css-3">
+                                </li>
+                                <li>
+                                    <img src="./assets/images/javascript.png" alt="icone do javascript">
+                                </li>
+                                <li>
+                                    <img src="./assets/images/icons8-react-50.png" alt="icone do react">
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="projeto_button">
+                            <a href="https://memories-sooty-kappa.vercel.app" target="_blank"><button class="ver_projeto">Ver projeto</button></a>
+                            <a href="https://github.com/endryus7/Memories" target="_blank"><button class="ver_repositorio">Ver Repositório</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content_projeto_card">
+                    <img src="assets/images/projeto-clínica-MedVita.png" alt="clínica-MedVita">
+                    <div class="projeto_body">
+                        <h2>Clínica MedVita</h2>
+                        <p>Clínica Medvita é um site institucional desenvolvido para simular uma clínica médica. O foco foi aplicar boas práticas de HTML5, CSS3 e JavaScript, explorando responsividade com media queries, navegação dinâmica com menu hambúrguer e organização de layout com Flexbox e Grid.</p>
+                        <div class="ferramentas">
+                            <ul class="projeto_icons">
+                                <li>
+                                    <img src="./assets/images/html-5.png" alt="icone do html-5">
+                                </li>
+                                <li>
+                                    <img src="./assets/images/css-3.png" alt="icone do css-3">
+                                </li>
+                                <li>
+                                    <img src="./assets/images/javascript.png" alt="icone do javascript">
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="projeto_button">
+                            <a href="https://endryus7.github.io/Clinica-MedVita/" target="_blank"><button class="ver_projeto">Ver projeto</button></a>
+                            <a href="https://github.com/endryus7/Clinica-MedVita" target="_blank"><button class="ver_repositorio">Ver Repositório</button></a>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="content_projeto_card" id="content_projeto_card2">
