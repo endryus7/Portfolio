@@ -86,6 +86,70 @@ header .menu li a:hover {
     transition: 0.3s all;
 }
 
+/* Dark Mode */
+#theme-toggle{
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 28px;
+  color: white;
+}
+
+#theme-toggle span{
+  transition: 0.3s;
+}
+
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark {
+  background-color: #121212;
+  color: white;
+}
+
+body.dark header {
+  background-color: #1e1e1e;
+}
+
+body.dark a {
+  color: #4da6ff;
+}
+
+body.dark h1,
+body.dark h2,
+body.dark h3 {
+    color: #ddd
+}
+
+body.dark .section2 {
+    background-color: #262626;
+}
+
+body.dark .card {
+  background-color: #404040;
+}
+
+body.dark .card_p {
+    color: #4da6ff;
+}
+
+body.dark .section3 h1 {
+    color: #121212;
+}
+
+body.dark .content_projeto_card {
+    background-color: #1e1e1e;
+}
+
+body.dark .menu_contato a {
+    color: white;
+}
+
+body.dark .menu_contato a:hover {
+    color: #6366f1;
+}
+
 /* MAIN */
 h1,h2,h3 {
     font-family: "League Spartan", sans-serif;
