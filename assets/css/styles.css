@@ -559,7 +559,7 @@ section {
 }
 
 .project-card.featured {
-  grid-column: span 1;
+  grid-template-columns: 1fr 1fr;
 }
 
 .project-thumb {
@@ -634,56 +634,6 @@ section {
 .proj-btn.ghost:hover {
   color: var(--text);
   border-color: var(--accent);
-}
-
-/* Other projects grid */
-.other-projects-title {
-  font-family: "Syne", sans-serif;
-  font-size: 1rem;
-  font-weight: 700;
-  color: var(--muted);
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-size: 0.78rem;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-}
-
-.other-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1rem;
-}
-
-.mini-card {
-  background: var(--card-bg);
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  padding: 1.25rem;
-  transition: all 0.25s;
-}
-.mini-card:hover {
-  border-color: rgba(108, 99, 255, 0.35);
-  transform: translateY(-2px);
-}
-.mini-card h4 {
-  font-family: "Syne", sans-serif;
-  font-size: 0.95rem;
-  font-weight: 700;
-  margin-bottom: 0.4rem;
-}
-.mini-card p {
-  font-size: 0.78rem;
-  color: var(--muted);
-  margin-bottom: 0.75rem;
-  line-height: 1.5;
-}
-.mini-card .project-links {
-  gap: 0.5rem;
-}
-.mini-card .proj-btn {
-  font-size: 0.74rem;
-  padding: 5px 10px;
 }
 
 /* CONTACT */
