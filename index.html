@@ -1,478 +1,514 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfólio do desenvolvedor front-end Endryus Montezano">
-    <title>Portifólio | Endryus Montezano</title>
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <link rel="stylesheet" href="./assets/css/media.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio Endryus Montezano">
+  <title>Portfólio | Endryus Montezano</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/media.css">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <script src="assets/js/script.js" defer></script>
 </head>
 <body>
-    <header>
-    <div class="header_container">
 
-        <div class="header_logo">
-            <img src="./assets/images/logo.png" alt="logo">
-        </div>
-
-        <nav class="header_nav">
-            <ul class="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
-                <button id="theme-toggle">
-                    <span class="material-symbols-outlined" id="theme-icon">dark_mode</span>
-                </button>
-            </ul>
-        </nav>
+<!-- HEADER -->
+<header>
+  <div class="logo">EM<span>.</span></div>
+  <nav>
+    <ul id="nav-menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+  <div class="theme-mode" style="display:flex;gap:10px;align-items:center;">
+    <button id="theme-toggle" title="Alternar tema">
+      <i class="bi bi-moon-fill" id="theme-icon"></i>
+    </button>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
     </div>
-    </header>
-    <main>
-        <section class="section1" id="home">
-        <div class="content1">
-            <h1><b>Transformando Ideias</b> em Experiências Digitais</h1>
-            <p>Endryus Montezano, Porto Alegre-RS, Desenvolvedor Front-end.</p>
-            <ul class="menu_social">
-                <li>
-                    <a href="https://github.com/endryus7" target="_blank">
-                        <i class="bi bi-github"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/endryusmontezano" target="_blank">
-                        <i class="bi bi-linkedin"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/endryus_7" target="_blank">
-                        <i class="bi bi-instagram"></i>
-                    </a>
-                </li>
-            </ul>
-            <a href="#projetos"><button>Ver Projetos</button></a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="home">
+  <div class="hero-glow"></div>
+  <div class="hero-glow2"></div>
+
+  <div class="hero-content">
+    <div class="hero-tag">Disponível para estágio</div>
+    <h1 class="hero-title">
+      Transformando<br>
+      <span class="accent">Ideias</span> em<br>
+      Experiências <span class="accent2">Digitais</span>
+    </h1>
+    <p class="hero-sub">
+      Endryus Montezano — Desenvolvedor Front-end em Porto Alegre-RS.
+      Estudante de Engenharia de Software.
+    </p>
+    <div class="hero-actions">
+      <a href="#projetos" class="btn-primary">
+        <i class="bi bi-grid-fill"></i> Ver Projetos
+      </a>
+      <a href="./assets/Currículo_Endryus_Montezano.pdf" target="_blank" class="btn-secondary">
+        <i class="bi bi-file-earmark-person"></i> Currículo
+      </a>
+    </div>
+    <div class="hero-social">
+      <a href="https://github.com/endryus7" target="_blank" class="social-link" title="GitHub">
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/endryusmontezano" target="_blank" class="social-link" title="LinkedIn">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="https://www.instagram.com/endryus_7" target="_blank" class="social-link" title="Instagram">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="mailto:endryusmontezano@live.com" class="social-link" title="E-mail">
+        <i class="bi bi-envelope-fill"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="tech-stack">
+    <div class="tech-item">
+      <img src="./assets/images/icons8-html-5-96.png" alt="HTML5"> HTML5
+    </div>
+    <div class="tech-item">
+      <img src="./assets/images/icons8-css3-96.png" alt="CSS3"> CSS3
+    </div>
+    <div class="tech-item">
+      <img src="./assets/images/icons8-javascript-96.png" alt="JavaScript"> JavaScript
+    </div>
+    <div class="tech-item">
+      <img src="./assets/images/icons8-react-50.png" alt="React"> React
+    </div>
+    <div class="tech-item">
+      <img src="./assets/images/icons8-typescript-96.png" alt="TypeScript"> TypeScript
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="sobre">
+  <div class="about-grid reveal">
+    <div class="about-photo-wrap">
+      <img src="./assets/images/minha-foto.jpg" alt="Endryus Montezano">
+    </div>
+    <div class="about-text">
+      <div class="section-label">Sobre mim</div>
+      <h2 class="section-title">Olá, sou o Endryus!</h2>
+      <p>
+        Sou estudante de Engenharia de Software (6º semestre), com foco em desenvolvimento front-end Meu interesse por tecnologia começou pelo universo dos jogos de videogame/PC, o que naturalmente me levou à programação e ao desenvolvimento de software.
+      </p>
+      <p>
+        Tenho experiência prática com HTML, CSS e JavaScript, estou aprofundando meus conhecimentos em React e possuo conhecimentos básicos em TypeScript. Também tenho contato com desenvolvimento full stack utilizando Node.js, Express e MongoDB.
+      </p>
+      <p>
+        Busco minha primeira oportunidade de estágio, onde possa aprender continuamente, contribuir com o time e evoluir como desenvolvedor ao lado de profissionais experientes.
+      </p>
+      <div class="about-location">
+        <i class="bi bi-geo-alt-fill"></i>
+        Porto Alegre, Rio Grande do Sul
+      </div>
+      <div class="skills-row">
+        <span class="skill-tag">HTML5</span>
+        <span class="skill-tag">CSS3</span>
+        <span class="skill-tag">JavaScript</span>
+        <span class="skill-tag">React</span>
+        <span class="skill-tag">TypeScript</span>
+        <span class="skill-tag green">Node.js</span>
+        <span class="skill-tag green">Express</span>
+        <span class="skill-tag green">MongoDB</span>
+        <span class="skill-tag green">REST API</span>
+        <span class="skill-tag green">Axios</span>
+      </div>
+      <div class="about-actions">
+        <a href="mailto:endryusmontezano@live.com" class="btn-primary">
+          <i class="bi bi-envelope-fill"></i> Enviar e-mail
+        </a>
+        <a href="./assets/Currículo_Endryus_Montezano.pdf" target="_blank" class="btn-secondary">
+          <i class="bi bi-download"></i> Currículo
+        </a>
+      </div>
+
+      <div class="about-cards">
+        <div class="info-card">
+          <div class="info-card-label">Formação</div>
+          <div class="edu-item">
+            <h4>Engenharia de Software</h4>
+            <p>Faculdade Estácio</p>
+            <p>Cursando · Conclusão: Dez/2027</p>
+          </div>
         </div>
-        <div class="content2">
-            <h2>Ferramentas e Linguagens</h2>
-            <ul class="icons_img">
-                <li>
-                    <img src="./assets/images/icons8-html-5-96.png" alt="icone do html-5">
-                </li>
-                <li>
-                    <img src="./assets/images/icons8-css3-96.png" alt="icone do css-3">
-                </li>
-                <li>
-                    <img src="./assets/images/icons8-javascript-96.png" alt="icone do javascript">
-                </li>
-                <li>
-                    <img src="./assets/images/icons8-react-50.png" alt="icone do React">
-                </li>
-                <li>
-                    <img src="assets/images/icons8-typescript-96.png" alt="icone do TypeScript">
-                </li>
-            </ul>
+        <div class="info-card">
+          <div class="info-card-label">Certificados</div>
+          <div class="cert-item">
+            <span>Formação Front-End (Udemy)</span>
+            <a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-4ff91ed8-c94d-4d0d-8376-86b787b4898b.pdf" target="_blank" class="cert-link">Ver <i class="bi bi-box-arrow-up-right"></i></a>
+          </div>
+          <div class="cert-item">
+            <span>Santander 2025 Front-End</span>
+            <a href="https://hermes.dio.me/certificates/UXAVHCEX.pdf" target="_blank" class="cert-link">Ver <i class="bi bi-box-arrow-up-right"></i></a>
+          </div>
+          <div class="cert-item">
+            <span>Orange Tech+</span>
+            <a href="https://hermes.dio.me/certificates/ZRQBCUCS.pdf" target="_blank" class="cert-link">Ver <i class="bi bi-box-arrow-up-right"></i></a>
+          </div>
+          <div class="cert-item">
+            <span>HTML Web Developer</span>
+            <a href="https://hermes.dio.me/certificates/YAEZAMBZ.pdf" target="_blank" class="cert-link">Ver <i class="bi bi-box-arrow-up-right"></i></a>
+          </div>
+          <div class="cert-item">
+            <span>Lógica de Programação</span>
+            <a href="https://hermes.dio.me/certificates/3EGR2OVQ.pdf" target="_blank" class="cert-link">Ver <i class="bi bi-box-arrow-up-right"></i></a>
+          </div>
         </div>
-        </section>
-        <section class="section2" id="sobre">
-            <div class="content3">
-                <div class="content_picture">
-                    <img src="./assets/images/minha-foto.jpg" alt="Minha foto">
-                </div>
-                <div class="content_sobre">
-                    <h2>Sobre mim</h2>
-                    <p>Olá! me chamo Endryus Montezano. Sou estudante de Engenharia de Software (6º semestre) com foco em Desenvolvimento Front-End. 
-                    Possuo experiência prática com HTML, CSS, JavaScript e conhecimentos em React e TypeScript, aplicando conceitos como componentização e manipulação de estado. Busco oportunidade de estágio para evoluir tecnicamente e contribuir em projetos reais. 
-                    </p>
-                    <div class="location">
-                    <i class="bi bi-geo-alt-fill"></i>
-                    <span>Porto Alegre, Rio Grande do Sul</span>
-                    </div>
-                    <div class="botao_sobre">
-                        <a href="mailto:endryusmontezano@live.com"><button class="email">Email</button></a>
-                        <a href="./assets/Currículo - Endryus Montezano.pdf" target="_blank"><button class="curriculo">Currículo</button></a>
-                    </div>
-                </div>
-            </div>
-            <div class="content4">
-                <div class="content_formacao">
-                    <h1>Formação</h1>
-                    <div class="card">
-                        <h3>Engenharia de Software</h3>
-                        <p class="card_p">Cursando (Previsão de conclusão: Dezembro/2027)</p>
-                        <p>Faculdade Estácio</p>
-                    </div>
-                </div>
-                <div class="content_curso">
-                    <h1>Cursos e certificados</h1>
-                    <div id="curso">
-                        <div class="card">
-                            <h3>Formação Front-End – HTML, CSS, JavaScript, React e TypeScript</h3>
-                            <p class="card_p">Concluído</p>
-                            <a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-4ff91ed8-c94d-4d0d-8376-86b787b4898b.pdf" target="_blank">Certificado</a>
-                        </div>
-                        <div class="card">
-                            <h3>Santander 2025 - Front-End</h3>
-                            <p class="card_p">Concluído</p>
-                            <a href="https://hermes.dio.me/certificates/UXAVHCEX.pdf" target="_blank">Certificado</a>
-                        </div>
-                        <div class="card">
-                            <h3>Orange Tech +</h3>
-                            <p class="card_p">Concluído</p>
-                            <a href="https://hermes.dio.me/certificates/ZRQBCUCS.pdf" target="_blank">Certificado</a>
-                        </div>
-                        <div class="card">
-                            <h3>Formação HTML Web Developer</h3>
-                            <p class="card_p">Concluído</p>
-                            <a href="https://hermes.dio.me/certificates/YAEZAMBZ.pdf" target="_blank">Certificado</a>
-                        </div>
-                        <div class="card">
-                            <h3>Formação Lógica de Programação</h3>
-                            <p class="card_p">Concluído</p>
-                            <a href="https://hermes.dio.me/certificates/3EGR2OVQ.pdf" target="_blank">Certificado</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section3" id="projetos">
-            <div class="content_projeto">
-                <h1>Projetos</h1>
-            </div>
-                <div class="content_projeto_card">
-                    <img src="./assets/images/projeto-party-time.png" alt="Site Party Time">
-                    <div class="projeto_body">
-                        <h2>Party Time</h2>
-                        <p>Aplicação web full stack desenvolvida com React, Node.js, Express e MongoDB, permitindo criar e gerenciar festas e selecionar serviços disponíveis. A aplicação utiliza API REST, consumo de dados com Axios e integração com banco de dados.</p>
-                        <div class="ferramentas">
-                            <ul class="projeto_icons">
-                                <li>
-                                    <img src="./assets/images/html-5.png" alt="icone do html-5">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/css-3.png" alt="icone do css-3">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/javascript.png" alt="icone do javascript">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/icons8-react-50.png" alt="icone do react">
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="projeto_button">
-                            <a href="https://party-time-inky.vercel.app/" target="_blank"><button class="ver_projeto">Ver projeto</button></a>
-                            <a href="https://github.com/endryus7/Party-Time" target="_blank"><button class="ver_repositorio">Ver Repositório</button></a>
-                        </div>
-                    </div>
-                </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-                <div class="content_projeto_card" id="content_projeto_card2">
-                    <img src="./assets/images/projeto-memories.png" alt="Site Memories">
-                    <div class="projeto_body">
-                        <h2>Memories</h2>
-                        <p>Aplicação web full stack desenvolvida com React, Node.js, Express e MongoDB que permite criar e compartilhar memórias com imagens e comentários. A aplicação utiliza API REST, consumo de dados com Axios e integração com banco de dados para armazenar e recuperar as memórias.</p>
-                        <div class="ferramentas">
-                            <ul class="projeto_icons">
-                                <li>
-                                    <img src="./assets/images/html-5.png" alt="icone do html-5">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/css-3.png" alt="icone do css-3">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/javascript.png" alt="icone do javascript">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/icons8-react-50.png" alt="icone do react">
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="projeto_button">
-                            <a href="https://memories-sooty-kappa.vercel.app" target="_blank"><button class="ver_projeto">Ver projeto</button></a>
-                            <a href="https://github.com/endryus7/Memories" target="_blank"><button class="ver_repositorio">Ver Repositório</button></a>
-                        </div>
-                    </div>
-                </div>
+<!-- PROJECTS -->
+<section id="projetos">
+  <div class="projects-header reveal">
+    <div>
+      <div class="section-label">Portfólio</div>
+      <h2 class="section-title">Meus Projetos</h2>
+    </div>
+    <a href="https://github.com/endryus7" target="_blank" class="btn-secondary">
+      <i class="bi bi-github"></i> Ver todos no GitHub
+    </a>
+  </div>
 
-                <div class="content_projeto_card">
-                    <img src="assets/images/projeto-clínica-MedVita.png" alt="clínica-MedVita">
-                    <div class="projeto_body">
-                        <h2>Clínica MedVita</h2>
-                        <p>Clínica Medvita é um site institucional desenvolvido para simular uma clínica médica. O foco foi aplicar boas práticas de HTML5, CSS3 e JavaScript, explorando responsividade com media queries, navegação dinâmica com menu hambúrguer e organização de layout com Flexbox e Grid.</p>
-                        <div class="ferramentas">
-                            <ul class="projeto_icons">
-                                <li>
-                                    <img src="./assets/images/html-5.png" alt="icone do html-5">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/css-3.png" alt="icone do css-3">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/javascript.png" alt="icone do javascript">
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="projeto_button">
-                            <a href="https://endryus7.github.io/Clinica-MedVita/" target="_blank"><button class="ver_projeto">Ver projeto</button></a>
-                            <a href="https://github.com/endryus7/Clinica-MedVita" target="_blank"><button class="ver_repositorio">Ver Repositório</button></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content_projeto_card" id="content_projeto_card2">
-                    <img src="./assets/images/projeto-todolist.png" alt="Site Todo list">
-                    <div class="projeto_body">
-                        <h2>Todo List</h2>
-                        <p>Aplicação de lista de tarefas desenvolvida com HTML, CSS e JavaScript, permitindo adicionar, concluir e remover tarefas, com foco em manipulação do DOM e organização de atividades diárias</p>
-                        <div class="ferramentas">
-                            <ul class="projeto_icons">
-                                <li>
-                                    <img src="./assets/images/html-5.png" alt="icone do html-5">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/css-3.png" alt="icone do css-3">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/javascript.png" alt="icone do javascript">
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="projeto_button">
-                            <a href="https://endryus7.github.io/Todo-list-avancado/" target="_blank"><button class="ver_projeto">Ver projeto</button></a>
-                            <a href="https://github.com/endryus7/Todo-list-avancado" target="_blank"><button class="ver_repositorio">Ver Repositório</button></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content_projeto_card">
-                    <img src="./assets/images/projeto-iphone.png" alt="Clone da página do iPhone">
-                    <div class="projeto_body">
-                        <h2>Clone da página do iPhone</h2>
-                        <p>Projeto que recria a página do iPhone utilizando HTML, CSS e JavaScript, com foco em layout responsivo, interações dinâmicas e fidelidade ao design original.</p>
-                        <div class="ferramentas">
-                            <ul class="projeto_icons">
-                                <li>
-                                    <img src="./assets/images/html-5.png" alt="icone do html-5">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/css-3.png" alt="icone do css-3">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/javascript.png" alt="icone do javascript">
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="projeto_button">
-                            <a href="https://endryus7.github.io/Clone-da-pagina-do-iPhone/" target="_blank"><button class="ver_projeto">Ver projeto</button></a>
-                            <a href="https://github.com/endryus7/Clone-da-pagina-do-iPhone" target="_blank"><button class="ver_repositorio">Ver Repositório</button></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content_projeto_card" id="content_projeto_card2">
-                    <img src="./assets/images/projeto-login.png" alt="Layout login">
-                    <div class="projeto_body">
-                        <h2>Layout login</h2>
-                        <p>Projeto de interface de login, desenvolvido com HTML, CSS e JavaScript. O layout inclui um gerador de senhas aleatórias, permitindo a criação de senhas seguras com diferentes combinações de caracteres.</p>
-                        <div class="ferramentas">
-                            <ul class="projeto_icons">
-                                <li>
-                                    <img src="./assets/images/html-5.png" alt="icone do html-5">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/css-3.png" alt="icone do css-3">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/javascript.png" alt="icone do javascript">
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="projeto_button">
-                            <a href="https://endryus7.github.io/Gerador-de-senhas/" target="_blank"><button class="ver_projeto">Ver projeto</button></a>
-                            <a href="https://github.com/endryus7/Gerador-de-senhas" target="_blank"><button class="ver_repositorio">Ver Repositório</button></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content_projeto_card">
-                    <img src="./assets/images/projeto-devnotes.png" alt="DevNotes">
-                    <div class="projeto_body">
-                        <h2>DevNotes</h2>
-                        <p>Aplicação web desenvolvida com HTML, CSS e JavaScript para criação e gerenciamento de anotações. O projeto permite adicionar, editar e organizar notas de forma simples e intuitiva, sendo voltado especialmente para desenvolvedores que desejam registrar ideias, lembretes ou trechos de código.</p>
-                        <div class="ferramentas">
-                            <ul class="projeto_icons">
-                                <li>
-                                    <img src="./assets/images/html-5.png" alt="icone do html-5">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/css-3.png" alt="icone do css-3">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/javascript.png" alt="icone do javascript">
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="projeto_button">
-                            <a href="https://endryus7.github.io/Dev-Notes/" target="_blank"><button class="ver_projeto">Ver projeto</button></a>
-                            <a href="https://github.com/endryus7/Dev-Notes" target="_blank"><button class="ver_repositorio">Ver Repositório</button></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content_projeto_card" id="content_projeto_card2">
-                    <img src="./assets/images/projeto-pokedex.png" alt="Site Pokedex">
-                    <div class="projeto_body">
-                        <h2>Pokedex</h2>
-                        <p>Desenvolvi uma Pokédex funcional que consome dados da PokéAPI para exibir informações de Pokémon em tempo real. A aplicação permite navegar por diversos Pokémon e visualizar detalhes importantes como imagem, tipo, estatísticas, peso e altura.</p>
-                        <div class="ferramentas">
-                            <ul class="projeto_icons">
-                                <li>
-                                    <img src="./assets/images/html-5.png" alt="icone do html-5">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/css-3.png" alt="icone do css-3">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/javascript.png" alt="icone do javascript">
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="projeto_button">
-                            <a href="https://endryus7.github.io/pokedex/" target="_blank"><button class="ver_projeto">Ver projeto</button></a>
-                            <a href="https://github.com/endryus7/pokedex" target="_blank"><button class="ver_repositorio">Ver Repositório</button></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content_projeto_card">
-                    <img src="./assets/images/projeto-youtube.png" alt="Clone do Youtube">
-                    <div class="projeto_body">
-                        <h2>Clone do Youtube</h2>
-                        <p>Este projeto consiste na criação de um clone visual do YouTube, utilizando apenas HTML e CSS. O objetivo principal foi reproduzir a interface da plataforma, com atenção aos detalhes de layout.</p>
-                        <div class="ferramentas">
-                            <ul class="projeto_icons">
-                                <li>
-                                    <img src="./assets/images/html-5.png" alt="icone do html-5">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/css-3.png" alt="icone do css-3">
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="projeto_button">
-                            <a href="https://endryus7.github.io/Clone-Youtube/" target="_blank"><button class="ver_projeto">Ver projeto</button></a>
-                            <a href="https://github.com/endryus7/Clone-Youtube" target="_blank"><button class="ver_repositorio">Ver Repositório</button></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content_projeto_card" id="content_projeto_card2">
-                    <img src="./assets/images/projeto-yugioh.png" alt="Site Yu-Gi-Oh">
-                    <div class="projeto_body">
-                        <h2>Yu-Gi-Oh</h2>
-                        <p>Desenvolvi um jogo interativo de cartas inspirado em Yu-Gi-Oh!, onde o jogador escolhe uma carta para duelar contra o computador. A aplicação utiliza JavaScript para controlar a lógica de vitória, manipulação do DOM e exibição dinâmica dos resultados.</p>
-                        <div class="ferramentas">
-                            <ul class="projeto_icons">
-                                <li>
-                                    <img src="./assets/images/html-5.png" alt="icone do html-5">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/css-3.png" alt="icone do css-3">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/javascript.png" alt="icone do javascript">
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="projeto_button">
-                            <a href="https://endryus7.github.io/Jogo-de-Cartas-do-Yu-Gi-Oh" target="_blank"><button class="ver_projeto">Ver projeto</button></a>
-                            <a href="https://github.com/endryus7/Jogo-de-Cartas-do-Yu-Gi-Oh" target="_blank"><button class="ver_repositorio">Ver Repositório</button></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content_projeto_card">
-                    <img src="./assets/images/projeto-pizza.png" alt="Site de pizza">
-                    <div class="projeto_body">
-                        <h2>Ecommerce de pizzaria</h2>
-                        <p>Desenvolvi um site de ecommerce de pizzaria com foco em interface intuitiva e experiência de usuário agradável. O usuário pode navegar pelo cardápio, visualizar sabores e selecionar pizzas, com preço calculado dinamicamente.</p>
-                        <div class="ferramentas">
-                            <ul class="projeto_icons">
-                                <li>
-                                    <img src="./assets/images/html-5.png" alt="icone do html-5">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/css-3.png" alt="icone do css-3">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/javascript.png" alt="icone do javascript">
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="projeto_button">
-                            <a href="https://endryus7.github.io/Projeto-pizza/" target="_blank"><button class="ver_projeto">Ver projeto</button></a>
-                            <a href="https://github.com/endryus7/Projeto-pizza" target="_blank"><button class="ver_repositorio">Ver Repositório</button></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content_projeto_card" id="content_projeto_card2">
-                    <img src="assets/images/projeto-discord.png" alt="Clone do Discord">
-                    <div class="projeto_body">
-                        <h2>Clone do Discord</h2>
-                        <p>Este projeto é uma recriação da página inicial do site do Discord, feita com HTML e CSS. O foco foi treinar habilidades de estruturação e estilização de interfaces modernas, com atenção aos detalhes visuais, alinhamentos e responsividade.</p>
-                        <div class="ferramentas">
-                            <ul class="projeto_icons">
-                                <li>
-                                    <img src="./assets/images/html-5.png" alt="icone do html-5">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/css-3.png" alt="icone do css-3">
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="projeto_button">
-                            <a href="https://endryus7.github.io/Clone-do-Discord/" target="_blank"><button class="ver_projeto">Ver projeto</button></a>
-                            <a href="https://github.com/endryus7/Clone-do-Discord" target="_blank"><button class="ver_repositorio">Ver Repositório</button></a>
-                        </div>
-                    </div>
-                </div>
-        </section>
-        <hr>
-        <section class="section4" id="contato">
-            <div class="content_contato">
-                <h1>Contate-me</h1>
-                <p>Estou disponível para serviços e novas conexões. Contate-me via e-mail e conecte-se comigo através das minhas redes sociais.</p>
-                <ul class="menu_contato">
-                    <li>
-                        <a href="https://github.com/endryus7" target="_blank">
-                            <i class="bi bi-github"><span>GitHub</span></i>
-                        </a>
-                    </li>
-                    <li>
-                    <a href="https://www.linkedin.com/in/endryusmontezano" target="_blank">
-                            <i class="bi bi-linkedin"><span>Linkedln</span></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/endryus_7" target="_blank">
-                            <i class="bi bi-instagram"><span>Instagram</span></i>
-                        </a>
-                    </li>
-                </ul>
-                <a href="mailto:endryusmontezano@live.com"><button class="email">endryusmontezano@live.com</button></a>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="content_footer">
-            <p>© 2025. Endryus Montezano.</p>
+  <!-- Featured -->
+  <div class="featured-grid reveal">
+    <div class="project-card featured">
+      <img src="./assets/images/projeto-party-time.png" alt="Party Time" class="project-thumb">
+      <div class="project-body">
+        <div class="project-tech">
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">Node.js</span>
+          <span class="tech-tag">MongoDB</span>
+          <span class="tech-tag">Express</span>
+          <span class="tech-tag">REST API</span>
         </div>
-    </footer>
-    <script src="./assets/js/script.js"></script>
+        <h3>Party Time</h3>
+        <p>Aplicação full stack para criação e gerenciamento de festas. Integra React no front-end com Node.js, Express e MongoDB no back-end, consumindo dados via Axios.</p>
+        <div class="project-links">
+          <a href="https://party-time-inky.vercel.app/" target="_blank" class="proj-btn primary">
+            <i class="bi bi-box-arrow-up-right"></i> Ver projeto
+          </a>
+          <a href="https://github.com/endryus7/Party-Time" target="_blank" class="proj-btn ghost">
+            <i class="bi bi-github"></i> Repositório
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card featured">
+      <img src="./assets/images/projeto-memories.png" alt="Memories" class="project-thumb">
+      <div class="project-body">
+        <div class="project-tech">
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">Node.js</span>
+          <span class="tech-tag">MongoDB</span>
+          <span class="tech-tag">Axios</span>
+        </div>
+        <h3>Memories</h3>
+        <p>Plataforma full stack para criar e compartilhar memórias com imagens e comentários. API REST com persistência em banco de dados.</p>
+        <div class="project-links">
+          <a href="https://memories-sooty-kappa.vercel.app" target="_blank" class="proj-btn primary">
+            <i class="bi bi-box-arrow-up-right"></i> Ver projeto
+          </a>
+          <a href="https://github.com/endryus7/Memories" target="_blank" class="proj-btn ghost">
+            <i class="bi bi-github"></i> Repositório
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card featured">
+      <img src="./assets/images/projeto-devnotes.png" alt="Devnotes" class="project-thumb">
+      <div class="project-body">
+        <div class="project-tech">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JS</span>
+        </div>
+        <h3>DevNotes</h3>
+        <p>App de notas com criação, edição e organização de anotações e trechos de código.</p>
+        <div class="project-links">
+          <a href="https://endryus7.github.io/Dev-Notes/" target="_blank" class="proj-btn primary">
+            <i class="bi bi-box-arrow-up-right"></i> Ver projeto
+          </a>
+          <a href="https://github.com/endryus7/Dev-Notes" target="_blank" class="proj-btn ghost">
+            <i class="bi bi-github"></i> Repositório
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card featured">
+      <img src="./assets/images/projeto-clínica-MedVita.png" alt="Clinica MedVita" class="project-thumb">
+      <div class="project-body">
+        <div class="project-tech">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JS</span>
+        </div>
+        <h3>Clínica MedVita</h3>
+        <p>Site institucional com responsividade, menu hambúrguer e layout com Flexbox e Grid.</p>
+        <div class="project-links">
+          <a href="https://endryus7.github.io/Clinica-MedVita/" target="_blank" class="proj-btn primary">
+            <i class="bi bi-box-arrow-up-right"></i> Ver projeto
+          </a>
+          <a href="https://github.com/endryus7/Clinica-MedVita" target="_blank" class="proj-btn ghost">
+            <i class="bi bi-github"></i> Repositório
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card featured">
+      <img src="./assets/images/projeto-pokedex.png" alt="Pokédex" class="project-thumb">
+      <div class="project-body">
+        <div class="project-tech">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JS</span>
+        </div>
+        <h3>Pokédex</h3>
+        <p>Pokédex funcional que consome a PokéAPI para exibir stats, tipos, peso e altura em tempo real.</p>
+        <div class="project-links">
+          <a href="https://endryus7.github.io/pokedex/" target="_blank" class="proj-btn primary">
+            <i class="bi bi-box-arrow-up-right"></i> Ver projeto
+          </a>
+          <a href="https://github.com/endryus7/pokedex" target="_blank" class="proj-btn ghost">
+            <i class="bi bi-github"></i> Repositório
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card featured">
+      <img src="./assets/images/projeto-pizza.png" alt="E-commerce de Pizzaria" class="project-thumb">
+      <div class="project-body">
+        <div class="project-tech">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JS</span>
+        </div>
+        <h3>E-commerce de Pizzaria</h3>
+        <p>Cardápio interativo com seleção de sabores e cálculo dinâmico de preço.</p>
+        <div class="project-links">
+          <a href="https://endryus7.github.io/Projeto-pizza/" target="_blank" class="proj-btn primary">
+            <i class="bi bi-box-arrow-up-right"></i> Ver projeto
+          </a>
+          <a href="https://github.com/endryus7/Projeto-pizza" target="_blank" class="proj-btn ghost">
+            <i class="bi bi-github"></i> Repositório
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card featured">
+      <img src="./assets/images/projeto-yugioh.png" alt="Yu-Gi-Oh! Card Game" class="project-thumb">
+      <div class="project-body">
+        <div class="project-tech">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JS</span>
+        </div>
+        <h3>Yu-Gi-Oh! Card Game</h3>
+        <p>Jogo de cartas interativo com lógica de vitória e manipulação de DOM.</p>
+        <div class="project-links">
+          <a href="https://endryus7.github.io/Jogo-de-Cartas-do-Yu-Gi-Oh" target="_blank" class="proj-btn primary">
+            <i class="bi bi-box-arrow-up-right"></i> Ver projeto
+          </a>
+          <a href="https://github.com/endryus7/Jogo-de-Cartas-do-Yu-Gi-Oh" target="_blank" class="proj-btn ghost">
+            <i class="bi bi-github"></i> Repositório
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card featured">
+      <img src="./assets/images/projeto-login.png" alt="Layout Login" class="project-thumb">
+      <div class="project-body">
+        <div class="project-tech">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JS</span>
+        </div>
+        <h3>Layout Login + Gerador de Senhas</h3>
+        <p>Interface de login com gerador de senhas seguras com múltiplas combinações de caracteres.</p>
+        <div class="project-links">
+          <a href="https://endryus7.github.io/Gerador-de-senhas/" target="_blank" class="proj-btn primary">
+            <i class="bi bi-box-arrow-up-right"></i> Ver projeto
+          </a>
+          <a href="https://github.com/endryus7/Gerador-de-senhas" target="_blank" class="proj-btn ghost">
+            <i class="bi bi-github"></i> Repositório
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card featured">
+      <img src="./assets/images/projeto-todolist.png" alt="Todo List Avançada" class="project-thumb">
+      <div class="project-body">
+        <div class="project-tech">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JS</span>
+        </div>
+        <h3>Todo List Avançada</h3>
+        <p>Lista de tarefas com adição, conclusão e remoção de itens e foco em manipulação do DOM.</p>
+        <div class="project-links">
+          <a href="https://endryus7.github.io/Todo-list-avancado/" target="_blank" class="proj-btn primary">
+            <i class="bi bi-box-arrow-up-right"></i> Ver projeto
+          </a>
+          <a href="https://github.com/endryus7/Todo-list-avancado" target="_blank" class="proj-btn ghost">
+            <i class="bi bi-github"></i> Repositório
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card featured">
+      <img src="./assets/images/projeto-iphone.png" alt="Clone do iPhone" class="project-thumb">
+      <div class="project-body">
+        <div class="project-tech">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JS</span>
+        </div>
+        <h3>Clone do iPhone</h3>
+        <p>Recriação da página do iPhone com layout responsivo e interações dinâmicas.</p>
+        <div class="project-links">
+          <a href="https://endryus7.github.io/Clone-da-pagina-do-iPhone/" target="_blank" class="proj-btn primary">
+            <i class="bi bi-box-arrow-up-right"></i> Ver projeto
+          </a>
+          <a href="https://github.com/endryus7/Clone-da-pagina-do-iPhone" target="_blank" class="proj-btn ghost">
+            <i class="bi bi-github"></i> Repositório
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card featured">
+      <img src="./assets/images/projeto-youtube.png" alt="Clone do YouTube" class="project-thumb">
+      <div class="project-body">
+        <div class="project-tech">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+        </div>
+        <h3>Clone do YouTube</h3>
+        <p>Recriação visual da interface do YouTube com atenção a layout e alinhamento.</p>
+        <div class="project-links">
+          <a href="https://endryus7.github.io/Clone-Youtube/" target="_blank" class="proj-btn primary">
+            <i class="bi bi-box-arrow-up-right"></i> Ver projeto
+          </a>
+          <a href="https://github.com/endryus7/Clone-Youtube" target="_blank" class="proj-btn ghost">
+            <i class="bi bi-github"></i> Repositório
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card featured">
+      <img src="./assets/images/projeto-discord.png" alt="Clone do Discord" class="project-thumb">
+      <div class="project-body">
+        <div class="project-tech">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+        </div>
+        <h3>Clone do Discord</h3>
+        <p>Recriação da landing page do Discord com atenção a detalhes visuais e responsividade.</p>
+        <div class="project-links">
+          <a href="https://endryus7.github.io/Clone-do-Discord/" target="_blank" class="proj-btn primary">
+            <i class="bi bi-box-arrow-up-right"></i> Ver projeto
+          </a>
+          <a href="https://github.com/endryus7/Clone-do-Discord" target="_blank" class="proj-btn ghost">
+            <i class="bi bi-github"></i> Repositório
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- CONTACT -->
+<section id="contato">
+  <div class="contact-grid reveal">
+    <div class="contact-text">
+      <div class="section-label">Contato</div>
+      <h2 class="section-title">Vamos conversar?</h2>
+      <p>
+        Estou aberto a oportunidades de estágio.
+        Se você tem uma ideia ou vaga, manda uma mensagem!
+      </p>
+      <div class="contact-links">
+        <a href="mailto:endryusmontezano@live.com" class="contact-link-item">
+          <i class="bi bi-envelope-fill"></i>
+          endryusmontezano@live.com
+          <span>E-mail</span>
+        </a>
+        <a href="https://www.linkedin.com/in/endryusmontezano" target="_blank" class="contact-link-item">
+          <i class="bi bi-linkedin"></i>
+          /in/endryusmontezano
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://github.com/endryus7" target="_blank" class="contact-link-item">
+          <i class="bi bi-github"></i>
+          /endryus7
+          <span>GitHub</span>
+        </a>
+        <a href="https://www.instagram.com/endryus_7" target="_blank" class="contact-link-item">
+          <i class="bi bi-instagram"></i>
+          @endryus_7
+          <span>Instagram</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <h3 style="font-family:'Syne',sans-serif;font-weight:700;margin-bottom:1.5rem;font-size:1.2rem;">Envie uma mensagem</h3>
+      <div class="form-group">
+        <label for="name">Nome</label>
+        <input type="text" id="name" placeholder="Seu nome">
+      </div>
+      <div class="form-group">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" placeholder="seu@email.com">
+      </div>
+      <div class="form-group">
+        <label for="message">Mensagem</label>
+        <textarea id="message" placeholder="Conte sobre sua ideia ou oportunidade..."></textarea>
+      </div>
+      <button class="btn-primary" style="width:100%;justify-content:center;" onclick="sendMessage()">
+        <i class="bi bi-send-fill"></i> Enviar mensagem
+      </button>
+      <p id="form-status"></p>
+    </div>
+  </div>
+</section>
+
+<!--  FOOTER  -->
+<footer>
+  <p>© 2026. Endryus Montezano.</p>
+  <div style="display:flex;gap:0.75rem;">
+    <a href="https://github.com/endryus7" target="_blank" class="social-link" style="width:32px;height:32px;font-size:0.95rem;">
+      <i class="bi bi-github"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/endryusmontezano" target="_blank" class="social-link" style="width:32px;height:32px;font-size:0.95rem;">
+      <i class="bi bi-linkedin"></i>
+    </a>
+  </div>
+</footer>
 </body>
 </html>
