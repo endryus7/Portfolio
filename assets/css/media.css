@@ -3,28 +3,36 @@
   .hero-content {
     max-width: 100%;
   }
+
   .tech-stack {
     display: none;
   }
+
   .about-grid {
     grid-template-columns: 1fr;
   }
+  
   .about-photo-wrap {
     max-width: 280px;
+    margin: auto;
   }
+
   .about-cards {
     grid-template-columns: 1fr;
   }
+
   .featured-grid {
     grid-template-columns: 1fr;
   }
+
   .contact-grid {
     grid-template-columns: 1fr;
   }
 
   nav ul {
     display: none;
-  }
+  } 
+
   nav ul.open {
     display: flex;
     flex-direction: column;
@@ -37,6 +45,7 @@
     padding: 1.5rem 5%;
     gap: 1.25rem;
   }
+
   .hamburger {
     display: flex;
   }
@@ -46,6 +55,7 @@
   .hero-actions {
     flex-direction: column;
   }
+
   .btn-primary,
   .btn-secondary {
     justify-content: center;
