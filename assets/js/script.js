@@ -46,7 +46,7 @@
       return;
     }
  
-    const mailto = `mailto:endryusmontezano@live.com?subject=Contato de ${encodeURIComponent(name)}&body=${encodeURIComponent(message + '\n\nDe: ' + email)}`;
+    const mailto = `mailto:endryusmontezano2@hotmail.com?subject=Contato de ${encodeURIComponent(name)}&body=${encodeURIComponent(message + '\n\nDe: ' + email)}`;
     window.location.href = mailto;
     status.style.color = '#43e97b';
     status.textContent = 'Abrindo seu cliente de e-mail...';
