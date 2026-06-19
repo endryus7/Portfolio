@@ -50,7 +50,7 @@ function sendMessage() {
   // Nome mínimo de 6 caracteres
   if (name.length < 6) {
     status.style.color = '#ff6584';
-    status.textContent = 'O nome deve ter pelo menos 3 caracteres.';
+    status.textContent = 'O nome deve ter pelo menos 6 caracteres.';
     status.style.display = 'block';
     return;
   }
