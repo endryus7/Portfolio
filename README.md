@@ -1,14 +1,27 @@
-# 💻 Portfólio - Endryus Montezano
+# 💻 Portfólio — Endryus Montezano
 
-Este é o meu portfólio pessoal desenvolvido para apresentar meus projetos, habilidades e evolução como desenvolvedor Front-End.
+> Portfólio pessoal desenvolvido para apresentar projetos, habilidades
+> e evolução como desenvolvedor Front-End.
 
-## 🚀 Tecnologias
+![preview do projeto](https://github.com/user-attachments/assets/a4b2504d-e85d-4786-ab3e-17aa27853308)
 
-- JavaScript
-- HTML5
-- CSS3
+🌐 **[endryus7.github.io/Portfolio](https://endryus7.github.io/Portfolio/)**
 
-## 🔗 Demo
+---
 
-Acesse o portfólio online:
-https://endryus7.github.io/Portfolio/
+## Tecnologias
+
+HTML5 · CSS3 · JavaScript
+
+---
+
+## Funcionalidades
+
+- 🗂️ Apresentação dos projetos desenvolvidos
+- 🛠️ Seção de habilidades e tecnologias
+- 📱 Design responsivo
+- 📬 Seção de contato
+
+---
+
+Desenvolvido por **[Endryus Montezano](https://github.com/endryus7)**
