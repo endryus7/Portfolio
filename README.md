@@ -17,10 +17,10 @@ HTML5 · CSS3 · JavaScript
 
 ## Funcionalidades
 
-- 🗂️ Apresentação dos projetos desenvolvidos
-- 🛠️ Seção de habilidades e tecnologias
-- 📱 Design responsivo
-- 📬 Seção de contato
+-  Apresentação dos projetos desenvolvidos
+-  Seção de habilidades e tecnologias
+-  Design responsivo
+-  Seção de contato
 
 ---
 
